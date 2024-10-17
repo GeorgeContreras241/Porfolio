@@ -1,7 +1,5 @@
 "use client"
-import { Fade, Rotate } from "react-awesome-reveal";
-import TypeIt from "typeit-react";
-import Image from "next/image";
+import { Fade } from "react-awesome-reveal";
 import home from "@/styles/home.module.css"
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -20,7 +18,7 @@ export default function Home() {
               <h1>Software engineer, technical writer & open-source maintainer</h1>
             </Fade>
 
-            <p>I'm Victor Eke, an experienced frontend developer passionate about learning
+            <p>Im Victor Eke, an experienced frontend developer passionate about learning
               and building open-source software that is beneficial to developers and
               the world at large.</p>
           </div>
@@ -41,7 +39,5 @@ export default function Home() {
         </div>
       </section>
     </>
-
-
   );
 }

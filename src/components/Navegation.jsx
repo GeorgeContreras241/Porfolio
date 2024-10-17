@@ -25,7 +25,7 @@ export const Navegation = () => {
             document.body.classList.remove('dark__mode');
             setDarkMode(false);
         }
-    }, [darkMode])
+    }, [])
     
     const toggle = () => {
         setDarkMode(!darkMode);
