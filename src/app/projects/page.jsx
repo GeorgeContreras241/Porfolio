@@ -10,7 +10,7 @@ export default function Projects() {
                 <div className={styles.projects}>
                     <Fade direction="up" triggerOnce="true" cascade="true" duration={500}>
                         <div className={styles.project__card}>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLyF8mtr1xJdZmFA6Wfs90bjL5YgxCofWig&s" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLyF8mtr1xJdZmFA6Wfs90bjL5YgxCofWig&s" alt="sukuna"/>
                             <div className={styles.project__info}>
                                 <h4>Sukumbia</h4>
                                 <p>En este projecto se trata de la cumbia que posee el poderoso sukumbia.</p>
@@ -20,7 +20,7 @@ export default function Projects() {
 
 
                         <div className={styles.project__card}>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLyF8mtr1xJdZmFA6Wfs90bjL5YgxCofWig&s" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLyF8mtr1xJdZmFA6Wfs90bjL5YgxCofWig&s" alt="sukunaa"/>
                             <div className={styles.project__info}>
                                 <h4>Sukumbia</h4>
                                 <p>En este projecto se trata de la cumbia que posee el poderoso sukumbia.</p>
@@ -28,7 +28,7 @@ export default function Projects() {
                             </div>
                         </div>
                         <div className={styles.project__card}>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLyF8mtr1xJdZmFA6Wfs90bjL5YgxCofWig&s" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLyF8mtr1xJdZmFA6Wfs90bjL5YgxCofWig&s" alt="sukunaa"/>
                             <div className={styles.project__info}>
                                 <h4>Sukumbia</h4>
                                 <p>En este projecto se trata de la cumbia que posee el poderoso sukumbia.</p>
@@ -36,14 +36,14 @@ export default function Projects() {
                             </div>
                         </div>
                         <div className={styles.project__card}>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLyF8mtr1xJdZmFA6Wfs90bjL5YgxCofWig&s" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLyF8mtr1xJdZmFA6Wfs90bjL5YgxCofWig&s" alt="sukunaa"/>
                             <div className={styles.project__info}>
                                 <h4>Sukumbia</h4>
                                 <p>En este projecto se trata de la cumbia que posee el poderoso sukumbia.</p>
                                 <a href="">Visitar</a>
                             </div>
                         </div><div className={styles.project__card}>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLyF8mtr1xJdZmFA6Wfs90bjL5YgxCofWig&s" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLyF8mtr1xJdZmFA6Wfs90bjL5YgxCofWig&s" alt="sukuana"/>
                             <div className={styles.project__info}>
                                 <h4>Sukumbia</h4>
                                 <p>En este projecto se trata de la cumbia que posee el poderoso sukumbia.</p>
@@ -51,7 +51,7 @@ export default function Projects() {
                             </div>
                         </div>
                         <div className={styles.project__card}>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLyF8mtr1xJdZmFA6Wfs90bjL5YgxCofWig&s" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLyF8mtr1xJdZmFA6Wfs90bjL5YgxCofWig&s" alt="suakuna"/>
                             <div className={styles.project__info}>
                                 <h4>Sukumbia</h4>
                                 <p>En este projecto se trata de la cumbia que posee el poderoso sukumbia.</p>

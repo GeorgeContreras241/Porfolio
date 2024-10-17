@@ -19,12 +19,12 @@ export default function About() {
                     <Fade direction="left" duration="500">
                         <div className={styles.presentation__text}>
                             <h3 className={orbitron.className}>Bienvenidos</h3>
-                            <p>i am George Contreras developer Frontend React, next js</p>
+                            <p>iam George Contreras developer Frontend React, next js</p>
                         </div>
                     </Fade>
                     <Fade direction="right" duration="500">
                         <div className={styles.presentation__img}>
-                            <img src={url} width={"300px"} className={styles.img} />
+                            <img src={url} width={"300px"} className={styles.img} alt="yuta"/>
                         </div>
                     </Fade>
                 </div>
@@ -32,7 +32,7 @@ export default function About() {
                     <p>Laorem ipsum dolor sit amet consectetur adipisicing elit. Id atque consequuntur soluta fugiat
                         ad eius cumque velit quasi aliquid, facilis voluptates repellat, in, reprehenderit ratione
                         distinctio quos? Vero, fugiat itaque! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Expedita dignissimos nemo ea. Dolorem odit repudiandae nemo vitae sunt voluptas adipisci error!
+                        Expedita dignissimos nemo ea. Dolorem odit repudiandae nemo vitae sunt voluptas adipisci error
                         Rem exercitationem provident tempore eaque vitae voluptas error voluptatem.</p>
                 </article>
                 <section className={styles.about}>
