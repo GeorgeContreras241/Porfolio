@@ -5,7 +5,7 @@ import { Orbitron } from 'next/font/google';
 import { FaHtml5, FaNode, FaCss3Alt, FaJs,FaReact  } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { GrLinkNext } from "react-icons/gr";
-import logoUdec from "@/images/logoUdec.png"
+
 import { Cv } from "@/components/Cv";
 const orbitron = Orbitron({
     subsets: ['latin'],
