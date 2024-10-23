@@ -83,3 +83,8 @@
     position: relative;
     top: -25px;
 }
+@media screen and (max-width:600px) {
+    .container__desc h1{
+        font-size: 1.4rem;
+    }
+}

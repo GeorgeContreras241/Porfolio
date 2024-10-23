@@ -25,6 +25,13 @@
 
 .presentation__text p {
     margin-top: 20px;
+    font-size: 1.3rem;
+    max-width: 530px;
+}
+.presentation__text mark{
+    outline: 1px solid #fff;
+    margin-right: auto;
+    width: 500px;
 }
 
 .presentation__img {
@@ -66,11 +73,11 @@
     gap: 25px;
     padding: 25px;
     border-radius: 10px;
-    
+
 }
 
 .tech span {
-    border-radius: 10px ;
+    border-radius: 10px;
     transition: scale .5s ease;
     width: fit-content;
     display: flex;
@@ -80,11 +87,77 @@
     align-items: center;
     padding: 5px 15px;
 }
-.tech span:hover{
-    background-color:var(--shadow);
+
+.tech span:hover {
+    background-color: var(--shadow);
     scale: 1.1;
 }
 
 .icons {
     font-size: 1.5rem;
+}
+
+.studies h4 {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 15px;
+}
+
+.studies__con {
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.studies__card {
+    width: fit-content;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: var(--shadow);
+    border-radius:10px;
+}
+
+.card__info {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 10px 20px;
+}
+.card__info__desp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__info__desp span{
+    color: #989898;
+   
+}
+.card__info__desp a{
+   text-decoration: none;
+   font-size: .8rem; 
+   transform: scale(1);
+   transition: transform .5s ease;
+   
+}
+.card__info__desp a:hover{
+    color: green;
+    transform: scale(1.1);
+ }
+.card__icons{
+    font-size: .7rem;
+}
+.card__info p{
+    color: green;
+    font-weight: 800;
+}
+.card__info span{
+    font-size: .8rem;
+}
+.img__info {
+    height: 80px;
+    margin-left: 10px;
 }

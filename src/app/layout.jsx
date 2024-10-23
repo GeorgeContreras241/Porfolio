@@ -1,4 +1,5 @@
 import { Navegation } from "@/components/Navegation"
+import { Footer } from "@/components/Footer"
 import "@/styles/global.css"
 import { Orbitron,Montserrat } from 'next/font/google';
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       <body className={montserrat.className}>
         <Navegation></Navegation>
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );

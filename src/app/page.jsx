@@ -14,20 +14,18 @@ export default function Home() {
       <main className={home.container__main}>
         <section className={home.container__home}>
           <div className={home.container__desc}>
-            <Fade duration="500" direction="down">
-              <h1>Software engineer, technical writer & open-source maintainer</h1>
+            <Fade duration="500" direction="down" triggerOnce="true">
+              <h1>Tecnólogo en Desarrollo de Software y Desarrollador Frontend especializado en Next.js y React.</h1>
             </Fade>
 
-            <p>Im Victor Eke, an experienced frontend developer passionate about learning
-              and building open-source software that is beneficial to developers and
-              the world at large.</p>
+            <p>Soy George Contreras, un desarrollador frontend junior
+               apasionado por aprender y mejorar constantemente en el campo del desarrollo web.</p>
           </div>
           <div className={home.container__links}>
-            <a href="#"><FaGithub className={home.home__icons} />GitHub</a>
-            <a href="#"><FaTwitter className={home.home__icons} />X</a>
-            <a href="#"><FaLinkedin className={home.home__icons} />LinKedin</a>
-            <a href="#"><SiGmail className={home.home__icons} />Codepen</a>
-            <a href="#"><FaFacebook className={home.home__icons} />vercel</a>
+            <a href="https://github.com/GeorgeContreras241" target="_blank"><FaGithub className={home.home__icons} />GitHub</a>
+            <a href="https://x.com/GeorgeCont92445" target="_blank"><FaTwitter className={home.home__icons} />CodeSpace</a>
+            <a href="https://www.linkedin.com/in/maicol-contreras-8b6029292/" target="_blank"><FaLinkedin className={home.home__icons} />LinKedin</a>
+            <a href="https://mail.google.com/" target="_blank"><SiGmail className={home.home__icons} />Email</a>
           </div>
         </section>
         <TbBrandGravatar className={home.img} />

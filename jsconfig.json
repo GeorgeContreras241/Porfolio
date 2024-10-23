@@ -3,5 +3,8 @@
     "paths": {
       "@/*": ["./src/*"]
     }
+  },
+  "path-intellisense.mappings": {
+    "/": "${workspaceRoot}/public"
   }
 }
