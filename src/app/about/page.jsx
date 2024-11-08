@@ -5,6 +5,10 @@ import { Orbitron } from 'next/font/google';
 import { FaHtml5, FaNode, FaCss3Alt, FaJs,FaReact  } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { GrLinkNext } from "react-icons/gr";
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1f01e2be58a4710286316bc51d5c93c5d97da47a
 import { Cv } from "@/components/Cv";
 
 const orbitron = Orbitron({
