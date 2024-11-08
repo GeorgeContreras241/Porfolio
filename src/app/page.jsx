@@ -1,12 +1,10 @@
 "use client"
 import { Fade } from "react-awesome-reveal";
 import home from "@/styles/home.module.css"
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin ,FaGithub,FaTwitter  } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-import { FaFacebook } from "react-icons/fa";
 import { TbBrandGravatar } from "react-icons/tb";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,8 +21,7 @@ export default function Home() {
           </div>
           <div className={home.container__links}>
             <a href="https://github.com/GeorgeContreras241" target="_blank"><FaGithub className={home.home__icons} />GitHub</a>
-            <a href="https://x.com/GeorgeCont92445" target="_blank"><FaTwitter className={home.home__icons} />CodeSpace</a>
-            <a href="https://www.linkedin.com/in/maicol-contreras-8b6029292/" target="_blank"><FaLinkedin className={home.home__icons} />LinKedin</a>
+            <a href="https://www.linkedin.com/in/georgecontreras241/" target="_blank"><FaLinkedin className={home.home__icons} />LinKedin</a>
             <a href="https://mail.google.com/" target="_blank"><SiGmail className={home.home__icons} />Email</a>
           </div>
         </section>
@@ -33,7 +30,7 @@ export default function Home() {
       <section className={home.container__works}>
         <h3>Work Experience</h3>
         <div className={home.container__works__dis}>
-          <p>nada....</p>
+          <Link href={"/projects"}>Ir a Proyectos...</Link>
         </div>
       </section>
     </>

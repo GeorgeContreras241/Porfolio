@@ -65,6 +65,9 @@
     margin-top: 20px;
 }
 .container__works__dis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
     margin-top: 20px;
     height: 300px;
@@ -72,10 +75,16 @@
     background-color: var(--shadow);
     border-radius: 15px;
 }
-.container__works__dis p {
-    padding-top: 20px;
+.container__works__dis a {
+    text-decoration: none;
+    border-bottom: 1px solid var(--color);
+    padding: 10px 0px;
     color: var(--color);
-
+    transition: padding 1s ease;
+}
+.container__works__dis a:hover{
+    padding: 10px 30px;
+    
 }
 .img{
     width: 200px;
