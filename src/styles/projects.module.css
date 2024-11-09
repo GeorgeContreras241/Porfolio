@@ -16,6 +16,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: center;
     gap: 30px;
 }
 
@@ -41,22 +42,42 @@
     flex-flow: column nowrap;
     gap: 5px;
 }
-
+.project__info__tech{
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    margin-bottom: 10px;
+}
+.project__info__tech ul{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5px;
+    margin-left: 10px;
+    list-style: none;
+    gap: 10px;
+    font-size: 0.8rem ;
+}
+.project__info__tech li {
+    border-bottom: 1px solid #fff;
+    padding: 5px ;
+}
 .project__info h4 {
     margin: 10px 20px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .project__info p {
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 10px;
     line-height: 1.3;
-    font-size: .8;
+    font-size: .9rem;
 }
 
 .project__info a {
+
     width: fit-content;
     padding: 5px 15px;
+    height: 30px;
     text-decoration: none;
     margin: 5px 10px 15px auto;
     background-color: var(--boton);

@@ -2,9 +2,10 @@
 import styles from "@/styles/projects.module.css"
 import Image from "next/image";
 import { Fade, Roll, Slide, Bounce } from "react-awesome-reveal";
-import project01 from "@/public/images/project01.PNG"
-import project02 from "@/public/images/project02.PNG"
-import project03 from "@/public/images/project03.PNG"
+import project01 from "@/images/project01.PNG"
+import project02 from "@/images/project02.PNG"
+import project03 from "@/images/project03.PNG"
+import project04 from "@/images/project04.jpg"
 
 export default function Projects() {
     return (
@@ -12,7 +13,7 @@ export default function Projects() {
             <section className={styles.container}>
                 <h2>My projects</h2>
                 <div className={styles.projects}>
-                    <Fade direction="up" triggerOnce="true" cascade="true" duration={500}>
+                    <Fade direction="up" triggerOnce="true" cascade="true" duration={300}>
                         <div className={styles.project__card}>
                             <Image
                                 src={project01}
@@ -24,12 +25,20 @@ export default function Projects() {
                                 <h4>Metalicas J y N</h4>
                                 <p>Página web del Taller de Ornamentación Metálicas J y N,
                                     diseñada para atraer clientes y mostrar los productos.</p>
-                                <a href="https://metalicasjyn.vercel.app" target="_blank">Visitar</a>
+                                <div className={styles.project__info__tech}>
+                                    <ul>
+                                        <li>Html</li>
+                                        <li>Css</li>
+                                        <li>JavaScript</li>
+                                        <li>React</li>
+                                    </ul>
+                                    <a href="https://metalicasjyn.vercel.app" target="_blank">Visitar</a>
+                                </div>
                             </div>
                         </div>
                         <div className={styles.project__card}>
                             <Image
-                                src={project03}
+                                src={project04}
                                 width={300}
                                 height={160}
                                 alt="Project Image"
@@ -37,7 +46,42 @@ export default function Projects() {
                             <div className={styles.project__info}>
                                 <h4>Consumo de Api Store Fake</h4>
                                 <p>En este projecto se consumio la api gratuita.</p>
-                                <a href="https://rick-and-morty-kappa-one.vercel.app/" target="_blank">Visitar</a>
+                                <div className={styles.project__info__tech}>
+                                    <ul>
+                                        <li>Html</li>
+                                        <li>Css</li>
+                                        <li>JavaScript</li>
+                                        <li>React</li>
+                                        <li>Next js</li>
+                                    </ul>
+                                    <a href="https:/store-api-sage.vercel.app" target="_blank">
+                                        Visitar</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div className={styles.project__card}>
+                            <Image
+                                src={project04}
+                                width={300}
+                                height={160}
+                                alt="Project Image"
+                            />
+                            <div className={styles.project__info}>
+                                <h4>Porfolio</h4>
+                                <p>En este projecto se consumio la api gratuita.</p>
+                                <div className={styles.project__info__tech}>
+                                    <ul>
+                                        <li>Html</li>
+                                        <li>Css</li>
+                                        <li>JavaScript</li>
+                                        <li>React</li>
+                                        <li>Next js</li>
+                                    </ul>
+                                    <a href="https:/store-api-sage.vercel.app" target="_blank">
+                                        Visitar</a>
+                                </div>
+
                             </div>
                         </div>
                         <div className={styles.project__card}>
@@ -52,7 +96,16 @@ export default function Projects() {
                                 <p>Consumo total de Api Rick and Morty con buscador y paginacion
                                     Personjes , Temporadas.
                                 </p>
-                                <a href="https://rick-next-red.vercel.app" target="_blank">Visitar</a>
+                                <div className={styles.project__info__tech}>
+                                    <ul>
+                                        <li>Html</li>
+                                        <li>Css</li>
+                                        <li>JavaScript</li>
+                                        <li>React</li>
+                                        <li>Next js</li>
+                                    </ul>
+                                    <a href="https://rick-next-red.vercel.app" target="_blank">Visitar</a>
+                                </div>
                             </div>
                         </div>
                         <div className={styles.project__card}>
@@ -65,11 +118,20 @@ export default function Projects() {
                             <div className={styles.project__info}>
                                 <h4>Clon pagina de inicio rick y morty</h4>
                                 <p>Clone paginas de Inicio Api Rick and Morty.</p>
-                                <a href="https://rick-and-morty-kappa-one.vercel.app/" target="_blank">Visitar</a>
+                                <div className={styles.project__info__tech}>
+                                    <ul>
+                                        <li>Html</li>
+                                        <li>Css</li>
+                                        <li>JavaScript</li>
+                                        <li>React</li>
+                                        <li>Next js</li>
+                                    </ul>
+                                    <a href="https://rick-and-morty-kappa-one.vercel.app/" target="_blank">
+                                        Visitar</a>
+                                </div>
+
                             </div>
                         </div>
-
-
                     </Fade>
                 </div>
             </section>

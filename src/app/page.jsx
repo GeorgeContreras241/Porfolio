@@ -13,7 +13,7 @@ export default function Home() {
         <section className={home.container__home}>
           <div className={home.container__desc}>
             <Fade duration="500" direction="down" triggerOnce="true">
-              <h1>Tecnólogo en Desarrollo de Software y Desarrollador Frontend especializado en Next.js y React.</h1>
+              <h1>Tecnólogo en Desarrollo de Software y Desarrollador Frontend en Next.js y React.</h1>
             </Fade>
 
             <p>Soy George Contreras, un desarrollador frontend junior
