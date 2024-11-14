@@ -1,7 +1,7 @@
 "use client"
 import { Fade } from "react-awesome-reveal";
 import home from "@/styles/home.module.css"
-import { FaLinkedin ,FaGithub,FaTwitter  } from "react-icons/fa";
+import { FaLinkedin ,FaGithub} from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { TbBrandGravatar } from "react-icons/tb";
 import Link from "next/link";
@@ -22,7 +22,7 @@ export default function Home() {
           <div className={home.container__links}>
             <a href="https://github.com/GeorgeContreras241" target="_blank"><FaGithub className={home.home__icons} />GitHub</a>
             <a href="https://www.linkedin.com/in/georgecontreras241/" target="_blank"><FaLinkedin className={home.home__icons} />LinKedin</a>
-            <a href="https://mail.google.com/" target="_blank"><SiGmail className={home.home__icons} />Email</a>
+            <a href="https://mail.google.com/" target="_blank"><SiGmail className={home.home__icons} />Gmail</a>
           </div>
         </section>
         <TbBrandGravatar className={home.img} />

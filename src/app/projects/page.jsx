@@ -55,7 +55,7 @@ export default function Projects() {
                                         <li>React</li>
                                         <li>Next js</li>
                                     </ul>
-                                    <a href="https:/store-api-sage.vercel.app" target="_blank">
+                                    <a href="https://store-api-sage.vercel.app" target="_blank">
                                         Visitar</a>
                                 </div>
 
