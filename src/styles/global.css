@@ -10,6 +10,7 @@
     --shadow: #efefef;
     --boton: #464646;
     --botonhover: #bdbdbd;
+    --hover-image: #efefefa4;
     
 }
 
@@ -19,6 +20,7 @@
     --shadow: #3d3d3d;
     --boton: #dcdcdc;
     --botonhover:#525252;
+    --hover-image: #3d3d3dc0;
 }
 
 body {
@@ -29,4 +31,44 @@ body {
 
 a {
     color: var(--color);
+}
+
+.p-image{
+    transform: scale(1);
+    transition: transform 1s ease;
+    border: none;
+    border-radius: 30px;
+}
+.p-image:hover{
+    transform: scale(1.05);
+}
+.p-image-toolbar{
+
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    gap: 40px;
+    
+}
+
+.p-image-preview-indicator{
+    background-color: var(--hover-image);
+}
+.p-image-preview-icon{
+    color: var(--color);
+    scale: 2;
+}
+.p-image-action{
+    color: #efefef;
+    scale: 1.5;
+    padding: 10px;
+}
+.p-image-action:hover{
+    background-color: var(--botonhover);
+    color: var(--colorhover);
+    border-radius: 9999px ;
+}
+.p-image-mask{
+    background-color: #525252d7;
+   
 }

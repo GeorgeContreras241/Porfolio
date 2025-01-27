@@ -1,10 +1,11 @@
 "use client"
 import { Fade } from "react-awesome-reveal";
-import home from "@/styles/home.module.css"
 import { FaLinkedin ,FaGithub} from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { TbBrandGravatar } from "react-icons/tb";
-import Link from "next/link";
+import { Experience } from "@/components/ui/Experience"
+import { Title } from "@/components/ui/Title"
+import home from "@/styles/home.module.css"
 
 export default function Home() {
   return (
@@ -13,9 +14,8 @@ export default function Home() {
         <section className={home.container__home}>
           <div className={home.container__desc}>
             <Fade duration="500" direction="down" triggerOnce="true">
-              <h1>Tecnólogo en Desarrollo de Software y Desarrollador Frontend en Next.js y React.</h1>
+              <Title />
             </Fade>
-
             <p>Soy George Contreras, un desarrollador frontend junior
                apasionado por aprender y mejorar constantemente en el campo del desarrollo web.</p>
           </div>
@@ -28,10 +28,7 @@ export default function Home() {
         <TbBrandGravatar className={home.img} />
       </main>
       <section className={home.container__works}>
-        <h3>Work Experience</h3>
-        <div className={home.container__works__dis}>
-          <Link href={"/projects"}>Ir a Proyectos...</Link>
-        </div>
+        <Experience />
       </section>
     </>
   );

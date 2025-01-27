@@ -1,0 +1,50 @@
+.studies__card {
+    width: fit-content;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: var(--shadow);
+    border-radius:10px;
+}
+
+.card__info {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 10px 20px;
+}
+.card__info__desp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__info__desp span{
+    color: #989898;
+   
+}
+.card__info__desp a{
+   text-decoration: none;
+   font-size: .8rem; 
+   transform: scale(1);
+   transition: transform .5s ease;
+   
+}
+.card__info__desp a:hover{
+    color: green;
+    transform: scale(1.1);
+ }
+.card__icons{
+    font-size: .7rem;
+}
+.card__info p{
+    color: green;
+    font-weight: 800;
+}
+.card__info span{
+    font-size: .8rem;
+}
+.img__info {
+    height: 80px;
+    margin-left: 10px;
+}

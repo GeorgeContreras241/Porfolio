@@ -2,7 +2,8 @@ import styles from "@/styles/cv.module.css"
 
 export const Cv = () => {
   const handleDownload = () => {
-    alert("descargando")
+    const fileUrl = "/cv.pdf";
+    window.open(fileUrl, "_blank");
   }
   return (
     <mark className={styles.cv}>

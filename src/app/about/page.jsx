@@ -4,23 +4,24 @@ import styles from "@/styles/about.module.css"
 import { Orbitron } from 'next/font/google';
 import { FaHtml5, FaNode, FaCss3Alt, FaJs,FaReact  } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
-import { GrLinkNext } from "react-icons/gr";
 import { Cv } from "@/components/Cv";
+import { Studies } from "@/components/ui/Studies";
+
 
 const orbitron = Orbitron({
     subsets: ['latin'],
-    weight: ['400', '500', '700'], // Especifica los pesos que deseas usar
+    weight: ['400', '500', '700'],
 });
 
 export default function About() {
-    const url = "https://i.scdn.co/image/ab67616d00001e024e0b29303f9ff57a7e6846d5"
+    const url = "https://smartcms-media.s3.ap-south-1.amazonaws.com/e6b05202-c737-4ce8-95a1-6132364f716e/conversions/why-coding-essential-future-webp.webp"
     return (
         <>
             <main className={styles.container}>
                 <div className={styles.presentation}>
                     <Fade direction="left" duration="500" triggerOnce="true">
                         <div className={styles.presentation__text}>
-                            <h3 className={orbitron.className}>¡Bienvenido!</h3>
+                            <h2 className={orbitron.className}>¡Bienvenido!</h2>
                             <p>Soy George Contreras, Desarrollador Frontend Junior especializado 
                                 en React y Next js.</p>
                             <Cv></Cv>
@@ -53,30 +54,16 @@ export default function About() {
                 <div className={styles.studies}>
                     <h4>Mis Estudios</h4>
                     <div className={styles.studies__con}>
-                        <div className={styles.studies__card}>
-                        <div><img src="https://www.ucundinamarca.edu.co/images/ucundinamarca/escudo-color.png"
-                                alt="Udec" className={styles.img__info} /></div>
-                            <div className={styles.card__info}>
-                                <p>Univercidad de Cundinamarca</p>
-                                <span>Tecnologia en Desarrollo de Software</span>
-                                <div className={styles.card__info__desp}>
-                                    <span>Completado</span>
-                                    <a href="https://www.ucundinamarca.edu.co/" target="_blank">Visitar <GrLinkNext className={styles.card__icons}/></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.studies__card}>
-                        <div><img src="https://talentotech.usergioarboleda.edu.co/assets/images/og.png"
-                                alt="Udec" className={styles.img__info} /></div>
-                            <div className={styles.card__info}>
-                                <p style={{color: "#58C4DC"}}>Telento Tech</p>
-                                <span>BootCamp Desarrolo Web Full Stack</span>
-                                <div className={styles.card__info__desp}>
-                                    <span>Completado</span>
-                                    <a href="https://certificados.talentotech.co/?cert=2387056631&fingerprint=y#pdf" target="_blank">Visitar <GrLinkNext className={styles.card__icons}/></a>
-                                </div>
-                            </div>
-                        </div>
+                        <Studies img="https://www.ucundinamarca.edu.co/images/ucundinamarca/escudo-color.png"
+                        title={"Universidad de Cundinamarca"}
+                        desp={"Tecnologia en Desarrollo de Software"}
+                        state={"Completado"}
+                        a={"Visitar"} />
+                        <Studies img="https://talentotech.usergioarboleda.edu.co/assets/images/og.png"
+                        title={"Telento Tech"}
+                        desp={"BootCamp Desarrolo Web Full Stack"}
+                        state={"Completado"}
+                        a={"https://certificados.talentotech.co/?cert=2387056631&fingerprint=y#pdf"} />
                     </div>
                 </div>
             </main>

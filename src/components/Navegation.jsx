@@ -60,7 +60,7 @@ export const Navegation = () => {
                         <i></i>
                     </div>
                 </button>
-                <button  onClick={toggle} className={styles.nav__menu}>
+                <button  type="button" onClick={toggle} className={styles.nav__menu}>
                     {darkMode ? <FaMoon  className={styles.icon}/> : <FaSun />}
                 </button>
             </nav>
@@ -69,7 +69,6 @@ export const Navegation = () => {
                 <li><Link href={"/about"}>About</Link></li>
                 <li><Link href={"/projects"}>Projects</Link></li>
             </ul>
-
         </>
 
 

@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 });
 export const metadata = {
   title: "Porfolio",
-  description: "Application generated from the Fake Store Api.",
+  description: "Porfolio personal",
   icons: {
     icon: "/Folder.png", // Ruta del favicon en la carpeta public
   },
